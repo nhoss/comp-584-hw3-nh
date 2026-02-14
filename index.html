@@ -1,96 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title></title>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<style type="text/css">
-      /* CLIENT-SPECIFIC STYLES */
-			body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-			table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
-			img { -ms-interpolation-mode: bicubic; }
-			
-			/* RESET STYLES */
-			img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
-			table { border-collapse: collapse !important; }
-			body { height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important; }
-			
-			/* iOS BLUE LINKS */
-			a[x-apple-data-detectors] {
-			    color: inherit !important;
-			    text-decoration: none !important;
-			    font-size: inherit !important;
-			    font-family: inherit !important;
-			    font-weight: inherit !important;
-			    line-height: inherit !important;
-			}
-			
-			/* GMAIL BLUE LINKS */
-			u + #body a {
-			    color: inherit;
-			    text-decoration: none;
-			    font-size: inherit;
-			    font-family: inherit;
-			    font-weight: inherit;
-			    line-height: inherit;
-			}
-			
-			/* SAMSUNG MAIL BLUE LINKS */
-			#MessageViewBody a {
-			    color: inherit;
-			    text-decoration: none;
-			    font-size: inherit;
-			    font-family: inherit;
-			    font-weight: inherit;
-			    line-height: inherit;
-			}
+<head>
+  <title>Turtles Against Plastic Straws</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-			/* Universal styles for links and stuff */
-		
+  <style type="text/css">
+    /* CLIENT-SPECIFIC STYLES */
+    body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+    table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+    img { -ms-interpolation-mode: bicubic; }
 
-			/* Responsive styles */
-	
-		</style>
-	</head>
-	<body id="body" style="margin: 0 !important; padding: 0 !important;">
+    /* RESET */
+    img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+    table { border-collapse: collapse !important; }
+    body { height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important; }
 
+    /* iOS BLUE LINKS */
+    a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
 
+    /* GMAIL BLUE LINKS */
+    u + #body a {
+      color: inherit;
+      text-decoration: none;
+      font-size: inherit;
+      font-family: inherit;
+      font-weight: inherit;
+      line-height: inherit;
+    }
 
-	  <!-- Logo image -->
+    /* SAMSUNG MAIL BLUE LINKS */
+    #MessageViewBody a {
+      color: inherit;
+      text-decoration: none;
+      font-size: inherit;
+      font-family: inherit;
+      font-weight: inherit;
+      line-height: inherit;
+    }
 
-    
-    
-		<!-- Headline -->
-		 <h1 style = "color:blue; font-weight: bold; text-align: center;">Turtles against Plastic Straws</h1>
-		 <p style = "text-align: center;"> The Turtle Commitee is adamant on taking action against the massive buildup of straws in their neigborhoods. 
-			The spokesperson for the comittee will shortly address the issue.</p>
+    /* UNIVERSAL */
+    a { text-decoration: none; }
 
-    
-		<!-- Hero Image -->
-		<div style="text-align: center;">
-			<img 
-			  src="Turtle.png"
-			  alt="Turtle"
-			  style="width: 300px; max-width: 100%; height: auto;"
-			/>
-		  </div>
-		 
+    /* RESPONSIVE */
+    @media screen and (max-width: 600px) {
+      .container { width: 100% !important; }
+      .mobile-padding { padding-left: 16px !important; padding-right: 16px !important; }
+      .stack { display: block !important; width: 100% !important; }
+      .center-on-mobile { text-align: center !important; }
+    }
+  </style>
+</head>
 
-    
+<body id="body" style="margin:0 !important; padding:0 !important; background-color:#f3f5f7;">
 
-		<!-- Body copy -->
-		 <h4 style = "color: red; font-weight: strong; text-align: center;"> Follow us next week for a riveting review on straws!!!</h4>
-    
+  <!--
+    SINGLE COLUMN TABLE LAYOUT
+    Outer table: full width (fluid)
+    Inner table: fixed width (recommended 600px)
+  -->
+  <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:#f3f5f7;">
+    <tr>
+      <td align="center" style="padding: 24px 12px;">
 
-		<!-- Button -->
+        <!-- INNER FIXED TABLE (600px) -->
+        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" class="container" style="width:600px; max-width:600px; background-color:#ffffff; border-radius:14px; overflow:hidden;">
 
-    
-    
-		<!-- Footer information: Always include an unsubscribe link! -->
+          <!-- LOGO / TOP BAR -->
+          <tr>
+            <td align="center" style="padding: 18px 24px; background-color:#0b3d91;">
+              <img src="Turtle.png" width="64" alt="Turtle Committee" style="display:block; width:64px; max-width:64px; height:auto; border-radius:999px;" />
+            </td>
+          </tr>
 
+          <!-- HEADLINE + INTRO -->
+          <tr>
+            <td align="center" class="mobile-padding" style="padding: 28px 40px 16px 40px; font-family: Arial, Helvetica, sans-serif;">
+              <h1 style="margin:0; font-size:28px; line-height:34px; color:#0b3d91; font-weight:700; text-align:center;">
+                Turtles Against Plastic Straws
+              </h1>
+              <p style="margin:14px 0 0 0; font-size:16px; line-height:24px; color:#333333; text-align:center;">
+                The Turtle Committee is taking action against the massive buildup of straws in our neighborhoods.
+                Our spokesperson will address the issue shortly.
+              </p>
+            </td>
+          </tr>
 
-		
+          <!-- HERO IMAGE (RESPONSIVE) -->
+          <tr>
+            <td align="center" style="padding: 10px 0 0 0;">
+              <img src="assets/Turtle.png" width="600" alt="Turtle" style="display:block; width:100%; max-width:600px; height:auto;" />
+            </td>
+          </tr>
 
-	</body>
+          <!-- BODY COPY WITH BACKGROUND IMAGE -->
+          <tr>
+            <td align="center" background="Turtle.png" style="background-image:url('Turtle.png'); background-size:cover; background-position:center; background-repeat:no-repeat;">
+              <!--[if gte mso 9]>
+              <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;">
+                <v:fill type="frame" src="Turtle.png" color="#0b3d91" />
+                <v:textbox inset="0,0,0,0">
+              <![endif]-->
+
+              <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td align="center" class="mobile-padding" style="padding: 34px 40px; font-family: Arial, Helvetica, sans-serif;">
+                    <!-- solid panel so text stays readable on top of the background image -->
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:#ffffff; border-radius:12px;">
+                      <tr>
+                        <td align="center" style="padding: 22px 22px 10px 22px;">
+                          <h2 style="margin:0; font-size:20px; line-height:26px; color:#111111; font-weight:700; text-align:center;">
+                            Follow us next week for a riveting review on straws!
+                          </h2>
+                          <p style="margin:10px 0 0 0; font-size:15px; line-height:22px; color:#333333; text-align:center;">
+                            In the meantime, join the movement and help us reduce single-use plastics.
+                          </p>
+                        </td>
+                      </tr>
+
+                      <!-- BUTTONS (CENTERED + EXTRA CLICK SPACE) -->
+                      <tr>
+                        <td align="center" style="padding: 14px 22px 22px 22px;">
+                          <!-- Button row wrapper to center and add outer spacing -->
+                          <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center">
+                            <tr>
+                              <td align="center" style="padding: 10px 0;">
+                                <!-- Primary button -->
+                                <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto;">
+                                  <tr>
+                                    <td align="center" bgcolor="#0b3d91" style="border-radius: 10px;">
+                                      <a target="_blank" style="display:inline-block; font-family: Arial, Helvetica, sans-serif; font-size:16px; line-height:16px; font-weight:700; color:#ffffff; padding:16px 26px; border-radius:10px;">
+                                        Take the Pledge
+                                      </a>
+                                    </td>
+                                  </tr>
+                                </table>
+
+                                <!-- extra spacing around buttons for easier tapping -->
+                                <div style="height:14px; line-height:14px; font-size:14px;">&nbsp;</div>
+
+                                <!-- Secondary button -->
+                                <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto;">
+                                  <tr>
+                                    <td align="center" bgcolor="#ffffff" style="border-radius: 10px; border:2px solid #0b3d91;">
+                                      <a target="_blank" style="display:inline-block; font-family: Arial, Helvetica, sans-serif; font-size:16px; line-height:16px; font-weight:700; color:#0b3d91; padding:16px 26px; border-radius:10px;">
+                                        Learn More
+                                      </a>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+
+                    </table>
+                  </td>
+                </tr>
+              </table>
+
+              <!--[if gte mso 9]>
+                </v:textbox>
+              </v:rect>
+              <![endif]-->
+            </td>
+          </tr>
+
+          <!-- FOOTER -->
+          <tr>
+            <td align="center" class="mobile-padding" style="padding: 22px 40px 28px 40px; font-family: Arial, Helvetica, sans-serif; background-color:#ffffff;">
+              <p style="margin:0; font-size:12px; line-height:18px; color:#666666; text-align:center;">
+                You’re receiving this email because you signed up for Turtle Committee updates.
+              </p>
+              <p style="margin:10px 0 0 0; font-size:12px; line-height:18px; color:#666666; text-align:center;">
+                <a  target="_blank" style="color:#0b3d91; text-decoration:underline;">Unsubscribe</a>
+              </p>
+            </td>
+          </tr>
+
+        </table>
+        <!-- /INNER FIXED TABLE (600px) -->
+
+      </td>
+    </tr>
+  </table>
+
+</body>
 </html>
